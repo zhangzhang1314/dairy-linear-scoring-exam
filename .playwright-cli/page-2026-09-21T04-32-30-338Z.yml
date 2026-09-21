@@ -1,0 +1,78 @@
+- generic [ref=e3]:
+  - banner [ref=e6]:
+    - button "Deploy" [ref=e11] [cursor=pointer]
+  - generic [ref=e14]:
+    - generic [ref=e18]:
+      - generic [ref=e19]: DAIRY CATTLE · LINEAR SCORING
+      - heading "奶牛体型线性评定考试" [level=1] [ref=e21]
+      - paragraph [ref=e23]: 认真作答；提交后将显示总分、正确答案和逐题解析。
+      - generic [ref=e24]:
+        - generic [ref=e25]: 选择题
+        - generic [ref=e26]: 填空题
+        - generic [ref=e27]: 判断题
+        - generic [ref=e28]: 满分 100 分
+    - generic [ref=e87]:
+      - paragraph [ref=e90]: 答题进度：10 / 15
+      - progressbar "66% Loaded" [ref=e518]
+    - heading "本次得分：0 分" [level=3] [ref=e523]
+    - generic [ref=e526]:
+      - generic [ref=e531]:
+        - paragraph [ref=e535]: 答对
+        - generic [ref=e536]: 0 题
+      - generic [ref=e542]:
+        - paragraph [ref=e546]: 答错
+        - generic [ref=e547]: 15 题
+      - generic [ref=e553]:
+        - paragraph [ref=e557]: 正确率
+        - generic [ref=e558]: 0%
+    - separator [ref=e563]
+    - generic [ref=e567]:
+      - strong [ref=e568]: 1. ✕ 回答错误
+      - text: 中央悬韧带测量值为 1.5 cm，应评为几分？你的答案：未作答 · 正确答案：3 1.5 cm对应 3 分。
+    - generic [ref=e572]:
+      - strong [ref=e573]: 2. ✕ 回答错误
+      - text: 前乳头长度测量值为 4 cm，应评为几分？你的答案：未作答 · 正确答案：4 4 cm对应 4 分。
+    - generic [ref=e577]:
+      - strong [ref=e578]: 3. ✕ 回答错误
+      - text: 后肢后视测量值为 80 度，应评为几分？你的答案：未作答 · 正确答案：2 80 度对应 2 分。
+    - generic [ref=e582]:
+      - strong [ref=e583]: 4. ✕ 回答错误
+      - text: 尻宽评为 8 分时，对应值是 25 cm。你的答案：未作答 · 正确答案：错误 尻宽 8 分的正确值是 24 cm。
+    - generic [ref=e587]:
+      - strong [ref=e588]: 5. ✕ 回答错误
+      - text: 尻角度评为 1 分时，对应值是 -4 cm。你的答案：未作答 · 正确答案：正确 尻角度 1 分的正确值是 -4 cm。
+    - generic [ref=e592]:
+      - strong [ref=e593]: 6. ✕ 回答错误
+      - text: 后附着高度评为 1 分时，对应的测量值是多少？你的答案：未作答 · 正确答案：32 cm 后附着高度 1 分对应 32 cm。
+    - generic [ref=e597]:
+      - strong [ref=e598]: 7. ✕ 回答错误
+      - text: 前乳房附着评为 4 分时，对应的测量值是多少？你的答案：未作答 · 正确答案：100 度 前乳房附着 4 分对应 100 度。
+    - generic [ref=e602]:
+      - strong [ref=e603]: 8. ✕ 回答错误
+      - text: 后附着宽度测量值为 14 cm，应评为几分？你的答案：未作答 · 正确答案：5 14 cm对应 5 分。
+    - generic [ref=e607]:
+      - strong [ref=e608]: 9. ✕ 回答错误
+      - text: 蹄踵深度评为 4 分时，对应值是 2.5 cm。你的答案：未作答 · 正确答案：错误 蹄踵深度 4 分的正确值是 2 cm。
+    - generic [ref=e612]:
+      - strong [ref=e613]: 10. ✕ 回答错误
+      - text: 后肢侧视评为 2 分时，对应值是 160 度。你的答案：未作答 · 正确答案：正确 后肢侧视 2 分的正确值是 160 度。
+    - generic [ref=e617]:
+      - strong [ref=e618]: 11. ✕ 回答错误
+      - text: 蹄角度评为 4 分时，对应的测量值是多少？你的答案：未作答 · 正确答案：40 度 蹄角度 4 分对应 40 度。
+    - generic [ref=e622]:
+      - strong [ref=e623]: 12. ✕ 回答错误
+      - text: 体高测量值为 135 cm，应评为几分？你的答案：未作答 · 正确答案：3 135 cm对应 3 分。
+    - generic [ref=e627]:
+      - strong [ref=e628]: 13. ✕ 回答错误
+      - text: 中央悬韧带评为 5 分时，对应值是 4 cm。你的答案：未作答 · 正确答案：错误 中央悬韧带 5 分的正确值是 3 cm。
+    - generic [ref=e632]:
+      - strong [ref=e633]: 14. ✕ 回答错误
+      - text: 尻宽评为 1 分时，对应的测量值是多少？你的答案：未作答 · 正确答案：10 cm 尻宽 1 分对应 10 cm。
+    - generic [ref=e637]:
+      - strong [ref=e638]: 15. ✕ 回答错误
+      - text: 乳房深度评为 1 分时，对应的测量值是多少？你的答案：未作答 · 正确答案：-1 cm 乳房深度 1 分对应 -1 cm。
+    - generic [ref=e640]:
+      - button [ref=e645] [cursor=pointer]:
+        - paragraph [ref=e647]: 再考一次
+      - button [ref=e652] [cursor=pointer]:
+        - paragraph [ref=e654]: 返回首页

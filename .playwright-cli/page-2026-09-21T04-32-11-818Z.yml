@@ -1,0 +1,174 @@
+- generic [ref=e3]:
+  - banner [ref=e6]:
+    - button "Deploy" [ref=e11] [cursor=pointer]
+  - generic [ref=e14]:
+    - generic [ref=e18]:
+      - generic [ref=e19]: DAIRY CATTLE · LINEAR SCORING
+      - heading "奶牛体型线性评定考试" [level=1] [ref=e21]
+      - paragraph [ref=e23]: 认真作答；提交后将显示总分、正确答案和逐题解析。
+      - generic [ref=e24]:
+        - generic [ref=e25]: 选择题
+        - generic [ref=e26]: 填空题
+        - generic [ref=e27]: 判断题
+        - generic [ref=e28]: 满分 100 分
+    - generic [ref=e87]:
+      - paragraph [ref=e90]: 答题进度：0 / 15
+      - progressbar "0% Loaded" [ref=e91]
+    - generic [ref=e96]:
+      - generic [ref=e98]:
+        - generic [ref=e99]: 第 1 题 / 共 15 题 填空题
+        - heading "中央悬韧带测量值为 1.5 cm，应评为几分？" [level=4] [ref=e107]
+        - textbox "请输入分数" [ref=e113]:
+          - /placeholder: 填写 1–9
+      - generic [ref=e115]:
+        - generic [ref=e116]: 第 2 题 / 共 15 题 填空题
+        - heading "前乳头长度测量值为 4 cm，应评为几分？" [level=4] [ref=e124]
+        - textbox "请输入分数" [ref=e130]:
+          - /placeholder: 填写 1–9
+      - generic [ref=e132]:
+        - generic [ref=e133]: 第 3 题 / 共 15 题 填空题
+        - heading "后肢后视测量值为 80 度，应评为几分？" [level=4] [ref=e141]
+        - textbox "请输入分数" [ref=e147]:
+          - /placeholder: 填写 1–9
+      - generic [ref=e149]:
+        - generic [ref=e150]: 第 4 题 / 共 15 题 判断题
+        - heading "尻宽评为 8 分时，对应值是 25 cm。" [level=4] [ref=e158]
+        - radiogroup "请选择" [ref=e162] [cursor=pointer]:
+          - generic [ref=e163]:
+            - radio "正确"
+            - paragraph [ref=e168]: 正确
+          - generic [ref=e169]:
+            - radio "错误"
+            - paragraph [ref=e174]: 错误
+      - generic [ref=e176]:
+        - generic [ref=e177]: 第 5 题 / 共 15 题 判断题
+        - heading "尻角度评为 1 分时，对应值是 -4 cm。" [level=4] [ref=e185]
+        - radiogroup "请选择" [ref=e189] [cursor=pointer]:
+          - generic [ref=e190]:
+            - radio "正确"
+            - paragraph [ref=e195]: 正确
+          - generic [ref=e196]:
+            - radio "错误"
+            - paragraph [ref=e201]: 错误
+      - generic [ref=e203]:
+        - generic [ref=e204]: 第 6 题 / 共 15 题 选择题
+        - heading "后附着高度评为 1 分时，对应的测量值是多少？" [level=4] [ref=e212]
+        - radiogroup "请选择" [ref=e216] [cursor=pointer]:
+          - generic [ref=e217]:
+            - radio "30 cm"
+            - paragraph [ref=e222]: 30 cm
+          - generic [ref=e223]:
+            - radio "32 cm"
+            - paragraph [ref=e228]: 32 cm
+          - generic [ref=e229]:
+            - radio "28 cm"
+            - paragraph [ref=e234]: 28 cm
+          - generic [ref=e235]:
+            - radio "26 cm"
+            - paragraph [ref=e240]: 26 cm
+      - generic [ref=e242]:
+        - generic [ref=e243]: 第 7 题 / 共 15 题 选择题
+        - heading "前乳房附着评为 4 分时，对应的测量值是多少？" [level=4] [ref=e251]
+        - radiogroup "请选择" [ref=e255] [cursor=pointer]:
+          - generic [ref=e256]:
+            - radio "90 度"
+            - paragraph [ref=e261]: 90 度
+          - generic [ref=e262]:
+            - radio "110 度"
+            - paragraph [ref=e267]: 110 度
+          - generic [ref=e268]:
+            - radio "100 度"
+            - paragraph [ref=e273]: 100 度
+          - generic [ref=e274]:
+            - radio "80 度"
+            - paragraph [ref=e279]: 80 度
+      - generic [ref=e281]:
+        - generic [ref=e282]: 第 8 题 / 共 15 题 填空题
+        - heading "后附着宽度测量值为 14 cm，应评为几分？" [level=4] [ref=e290]
+        - textbox "请输入分数" [ref=e296]:
+          - /placeholder: 填写 1–9
+      - generic [ref=e298]:
+        - generic [ref=e299]: 第 9 题 / 共 15 题 判断题
+        - heading "蹄踵深度评为 4 分时，对应值是 2.5 cm。" [level=4] [ref=e307]
+        - radiogroup "请选择" [ref=e311] [cursor=pointer]:
+          - generic [ref=e312]:
+            - radio "正确"
+            - paragraph [ref=e317]: 正确
+          - generic [ref=e318]:
+            - radio "错误"
+            - paragraph [ref=e323]: 错误
+      - generic [ref=e325]:
+        - generic [ref=e326]: 第 10 题 / 共 15 题 判断题
+        - heading "后肢侧视评为 2 分时，对应值是 160 度。" [level=4] [ref=e334]
+        - radiogroup "请选择" [ref=e338] [cursor=pointer]:
+          - generic [ref=e339]:
+            - radio "正确"
+            - paragraph [ref=e344]: 正确
+          - generic [ref=e345]:
+            - radio "错误"
+            - paragraph [ref=e350]: 错误
+      - generic [ref=e352]:
+        - generic [ref=e353]: 第 11 题 / 共 15 题 选择题
+        - heading "蹄角度评为 4 分时，对应的测量值是多少？" [level=4] [ref=e361]
+        - radiogroup "请选择" [ref=e365] [cursor=pointer]:
+          - generic [ref=e366]:
+            - radio "40 度"
+            - paragraph [ref=e371]: 40 度
+          - generic [ref=e372]:
+            - radio "45 度"
+            - paragraph [ref=e377]: 45 度
+          - generic [ref=e378]:
+            - radio "35 度"
+            - paragraph [ref=e383]: 35 度
+          - generic [ref=e384]:
+            - radio "30 度"
+            - paragraph [ref=e389]: 30 度
+      - generic [ref=e391]:
+        - generic [ref=e392]: 第 12 题 / 共 15 题 填空题
+        - heading "体高测量值为 135 cm，应评为几分？" [level=4] [ref=e400]
+        - textbox "请输入分数" [ref=e406]:
+          - /placeholder: 填写 1–9
+      - generic [ref=e408]:
+        - generic [ref=e409]: 第 13 题 / 共 15 题 判断题
+        - heading "中央悬韧带评为 5 分时，对应值是 4 cm。" [level=4] [ref=e417]
+        - radiogroup "请选择" [ref=e421] [cursor=pointer]:
+          - generic [ref=e422]:
+            - radio "正确"
+            - paragraph [ref=e427]: 正确
+          - generic [ref=e428]:
+            - radio "错误"
+            - paragraph [ref=e433]: 错误
+      - generic [ref=e435]:
+        - generic [ref=e436]: 第 14 题 / 共 15 题 选择题
+        - heading "尻宽评为 1 分时，对应的测量值是多少？" [level=4] [ref=e444]
+        - radiogroup "请选择" [ref=e448] [cursor=pointer]:
+          - generic [ref=e449]:
+            - radio "16 cm"
+            - paragraph [ref=e454]: 16 cm
+          - generic [ref=e455]:
+            - radio "12 cm"
+            - paragraph [ref=e460]: 12 cm
+          - generic [ref=e461]:
+            - radio "14 cm"
+            - paragraph [ref=e466]: 14 cm
+          - generic [ref=e467]:
+            - radio "10 cm"
+            - paragraph [ref=e472]: 10 cm
+      - generic [ref=e474]:
+        - generic [ref=e475]: 第 15 题 / 共 15 题 选择题
+        - heading "乳房深度评为 1 分时，对应的测量值是多少？" [level=4] [ref=e483]
+        - radiogroup "请选择" [ref=e487] [cursor=pointer]:
+          - generic [ref=e488]:
+            - radio "7 cm"
+            - paragraph [ref=e493]: 7 cm
+          - generic [ref=e494]:
+            - radio "-1 cm"
+            - paragraph [ref=e499]: "-1 cm"
+          - generic [ref=e500]:
+            - radio "0 cm"
+            - paragraph [ref=e505]: 0 cm
+          - generic [ref=e506]:
+            - radio "4 cm"
+            - paragraph [ref=e511]: 4 cm
+      - button [ref=e515] [cursor=pointer]:
+        - paragraph [ref=e517]: 提交试卷并查看成绩
