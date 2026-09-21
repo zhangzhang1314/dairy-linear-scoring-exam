@@ -97,7 +97,7 @@ if st.session_state.exam_page == "home":
         st.subheader("开始一次练习")
         question_count = st.slider("题目数量", min_value=9, max_value=30, value=15, step=3)
         st.caption("系统会均衡抽取三种题型。每次开始都会生成一套新试卷。")
-        if st.button("开始考试", type="primary", use_container_width=True):
+        if st.button("开始考试", type="primary", width="stretch"):
             start_exam(question_count)
             st.rerun()
     with right:
@@ -112,7 +112,7 @@ if st.session_state.exam_page == "home":
                 """
             )
     with st.expander("考前复习：查看完整评分对照表"):
-        st.dataframe(reference_table(), hide_index=True, use_container_width=True)
+        st.dataframe(reference_table(), hide_index=True, width="stretch")
 else:
     questions = st.session_state.exam_questions
     submitted = st.session_state.exam_submitted
@@ -150,12 +150,12 @@ else:
             st.write("")
 
         col1, col2 = st.columns(2)
-        if col1.button("再考一次", type="primary", use_container_width=True):
+        if col1.button("再考一次", type="primary", width="stretch"):
             count = len(questions)
             reset_exam()
             start_exam(count)
             st.rerun()
-        if col2.button("返回首页", use_container_width=True):
+        if col2.button("返回首页", width="stretch"):
             reset_exam()
             st.session_state.exam_page = "home"
             st.rerun()
@@ -175,7 +175,7 @@ else:
                         st.radio("请选择", ("正确", "错误"), index=None, horizontal=True, key=key, label_visibility="collapsed")
                     else:
                         st.text_input("请输入分数", key=key, placeholder="填写 1–9", label_visibility="collapsed")
-            submitted_now = st.form_submit_button("提交试卷并查看成绩", type="primary", use_container_width=True)
+            submitted_now = st.form_submit_button("提交试卷并查看成绩", type="primary", width="stretch")
             if submitted_now:
                 st.session_state.exam_submitted = True
                 st.rerun()
